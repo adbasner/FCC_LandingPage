@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#nav-bar {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+}
+
+#nav-bar h1 {
+  margin: 0;
+}
+
+#header-img {
+  height: 50px;
+  width: 50px;
+}
+
+#nav-links {
+  list-style-type: none;
+  background-color: #fff;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+#nav-links a {
+  display: block;
+  color: #000; 
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#nav-links a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#main {
+  margin-top: 208px;
+  position: static;
+  text-align: center;
+  clear: both;
+  display: block;
+}
+
+form {
+  margin: 0 0 150px 0;
+  padding: 150px;
+}
+
+#features {
+  margin: 0 0 150px 0;
+  padding: 208px 10px 10px 10px;
+}
+
+#demonstration {
+  margin: 0 0 150px 0;
+  padding: 208px 10px 10px 10px;
+
+}
+
+#price {
+  margin: 0 0 150px 0;
+  padding: 208px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#footer {
+  text-align: center;
+  background-color: #eeeeee;
+  padding: 50px;
+}
+
+@media only screen and (min-width: 600px){
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  h1 {
+    padding: 10px;
+  }  
+
+  #nav-links {
+    display: inline;
+  }  
+
+  .nav-link {
+    width: 150px;
+    display: inline;
+  }
+
+  #nav-links a {
+    padding: 15px;
+  }
+
+  #main {
+    margin-top: 52px;
+  }
+
+  form {
+    margin: 152px 0 100px 0;
+  }
+
+  #features {
+    padding: 52px 10px 10px 10px;
+  }
+
+  #demonstration {
+    padding: 52px 10px 10px 10px;
+
+  }
+
+  #price {
+    padding: 52px 10px 10px 10px;
+    flex-direction: row;
+  }
+
+}
+
+
+
+/*
+
+
+h1 {
+  margin-right: 168px;
+}
+
+
+
+.nav-link a{
+  display: block;
+  color: #000;
+  text-align: center; 
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+.nav-link a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+ul.inlineUl{
+    background-color: #dddddd;
+    
+}
+li.inline{
+    display: inline;
+    float: left;
+}
+
+li.right {
+    float: right;
+}
+
+@media screen and (max-width: 768px){
+    ul.inlineUl li.right, ul.inlineUl li {
+        float: none;
+    }
+    
+}*/
