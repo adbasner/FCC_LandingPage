@@ -61,7 +61,12 @@ form {
 #demonstration {
   margin: 0 0 150px 0;
   padding: 208px 10px 10px 10px;
+  /*width: 95%;*/
+}
 
+#video {
+  max-width: 100% !important;
+  max-height: 100% !important;
 }
 
 #price {
