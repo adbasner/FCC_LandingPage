@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 #nav-bar {
   background-color: #fff;
   width: 100%;
@@ -51,16 +52,26 @@ body {
 form {
   margin: 0 0 150px 0;
   padding: 150px;
+  background-color: #FF4136;
 }
 
+input {
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+}
+
+
 #features {
-  margin: 0 0 150px 0;
-  padding: 208px 10px 10px 10px;
+  margin: 150px 0 150px 0;
+  padding: 52px 10px 52px 10px;
 }
 
 #demonstration {
-  margin: 0 0 150px 0;
-  padding: 208px 10px 10px 10px;
+  margin: 150px 0 150px 0;
+  padding: 52px 10px 52px 10px;
+  background-color: #FF4136;
   /*width: 95%;*/
 }
 
@@ -70,20 +81,50 @@ form {
 }
 
 #price {
-  margin: 0 0 150px 0;
-  padding: 208px 10px 10px 10px;
+  margin: 150px 0 150px 0;
+  padding: 52px 10px 10px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: stretch;
 }
 
+.card {
+  flex-grow: 1;
+  border: 1px solid #FF4136;
+  /*height: 200px;*/
+  margin: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  background-color: #FF4136;
+  margin-top: 0;
+  padding: 10px;
+}
+
+button {
+  padding: 20px;
+  color: white;
+  background-color: #FF4136;
+  border: 0.5px #EE4136 solid;
+  font-size: 1em;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
 #footer {
   text-align: center;
-  background-color: #eeeeee;
+  background-color: #FF4136;
   padding: 50px;
+  color: white;
 }
 
-@media only screen and (min-width: 600px){
+a {
+  color: white;
+}
+
+@media only screen and (min-width: 768px){
   .left {
     float: left;
   }
@@ -110,72 +151,26 @@ form {
   }
 
   #main {
-    margin-top: 52px;
+    margin-top: 0;
   }
 
   form {
-    margin: 152px 0 100px 0;
+    margin: 52px 0 100px 0;
   }
 
   #features {
-    padding: 52px 10px 10px 10px;
+    padding: 52px 10px 52px 10px;
   }
 
   #demonstration {
-    padding: 52px 10px 10px 10px;
+    padding: 52px 10px 52px 10px;
 
   }
 
   #price {
-    padding: 52px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     flex-direction: row;
   }
 
 }
 
-
-
-/*
-
-
-h1 {
-  margin-right: 168px;
-}
-
-
-
-.nav-link a{
-  display: block;
-  color: #000;
-  text-align: center; 
-  padding: 10px;
-  text-decoration: none;
-  font-size: 18px;
-
-}
-
-.nav-link a:hover {
-    background-color: #555;
-    color: white;
-}
-
-
-ul.inlineUl{
-    background-color: #dddddd;
-    
-}
-li.inline{
-    display: inline;
-    float: left;
-}
-
-li.right {
-    float: right;
-}
-
-@media screen and (max-width: 768px){
-    ul.inlineUl li.right, ul.inlineUl li {
-        float: none;
-    }
-    
-}*/
